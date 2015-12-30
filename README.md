@@ -48,7 +48,7 @@ Instructions and code for setting up a simple iOS Mobile Device Management (MDM)
 
     * Strip the password from the private key using the following command:
 
-    openssl rsa -in key.pem out private.key
+    openssl rsa -in key.pem -out private.key
 
     * Extract certificate using the following command:
 
